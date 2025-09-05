@@ -130,7 +130,8 @@ class AboutDialog(QDialog):
         layout.addWidget(QLabel("LibreLauncher"))
         layout.addWidget(QLabel("Версия: Beta 0.1"))
         layout.addWidget(QLabel("Автор: Krispach (qwe0x322)"))
-        layout.addWidget(QLabel("GitHub: https://github.com/your-repo"))
+        layout.addWidget(QLabel("GitHub: https://github.com/Krispach/LibreLauncher"))
         button = QPushButton("Закрыть")
         button.clicked.connect(self.accept)
+
         layout.addWidget(button)
